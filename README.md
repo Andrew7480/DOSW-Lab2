@@ -1,6 +1,5 @@
 "# DOSW-Lab2" 
 
-
 # Preguntas iniciales
 
 ---
@@ -180,3 +179,4 @@ abstract class Auto implements Vehiculo {
 
 - Sierra, K., & Bates, B. (2005). Head First Java (2nd ed.). O'Reilly Media.
 - OpenAI, comunicación personal, 21 de agosto de 2025
+=======
