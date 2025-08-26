@@ -1,4 +1,4 @@
-package edu.dosw.lab.creacionales.reto1;
+package edu.dosw.lab.comportamiento.reto1;
 
 public class Producto {
     private String nombre;
