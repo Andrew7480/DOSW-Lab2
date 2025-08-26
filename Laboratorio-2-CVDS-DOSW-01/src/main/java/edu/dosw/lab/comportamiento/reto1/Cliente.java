@@ -1,14 +1,34 @@
 package edu.dosw.lab.comportamiento.reto1;
 
-public abstract class Cliente {
-    private String nombre;
+import java.util.*;
+
+public class Cliente {
     private DiscountStrategy discountStrategy;
-    public Cliente(String nombre, DiscountStrategy discountStrategy) {
-        this.nombre = nombre;
+    private CarritoCompras carrito;
+
+    public Cliente(DiscountStrategy discountStrategy) {
         this.discountStrategy = discountStrategy;
+        carrito = new CarritoCompras();
     }
 
-    public double aplicarDescuento(double precio) {
+    private double aplicarDescuento(int precio) {
         return discountStrategy.calcularDescuento(precio);
+    }
+    public void comprarArticulo(Producto producto){
+        carrito.añadirProducto(producto);
+    }
+
+    public int getTotalCarrito() {
+        return carrito.getTotal();
+    }
+    public int getTotalConDescuento() {
+        int total = getTotalCarrito();
+        return total - (int)aplicarDescuento(total);
+    }
+    public int getDescuento(){
+        return (int)aplicarDescuento(getTotalCarrito());
+    }
+    public List<Producto> getProductos() {
+        return carrito.getProductos();
     }
 }
