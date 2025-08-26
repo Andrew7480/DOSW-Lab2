@@ -1,5 +1,5 @@
+s
 package edu.dosw.lab.solid.reto5;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.TreeMap;
@@ -46,7 +46,7 @@ public class Cafe {
                 System.out.print("Ingrese el precio del nuevo topping: ");
                 double precioTopping = scs.nextDouble();
                 this.precio += precioTopping;
-                
+
             }else{
                 this.precio += preciosToppings.get(toppingNumber);
                 toppingsUsados.add(nombresToppings.get(toppingNumber));
