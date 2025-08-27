@@ -1,23 +1,12 @@
-public class Ticket {
-    private String descripcion;
-    private int nivel;      // nivel de dificultad
-    private int prioridad;  // prioridad del ticket
+public class Ticket{
+    private int complejidad;
 
-    public Ticket(String descripcion, int nivel, int prioridad) {
-        this.descripcion = descripcion;
-        this.nivel = nivel;
-        this.prioridad = prioridad;
+    
+    public Ticket(int Complejidad){
+        this.complejidad = complejidad;
     }
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-
-    public int getNivel() {
-        return nivel;
-    }
-
-    public int getPrioridad() {
-        return prioridad;
+    public int getComplejidad(){
+        return this.complejidad;
     }
 }
