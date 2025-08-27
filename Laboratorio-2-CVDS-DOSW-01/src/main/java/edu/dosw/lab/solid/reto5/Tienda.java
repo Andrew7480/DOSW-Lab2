@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Tienda {          
     private static ArrayList<Cafe> cafes = new ArrayList<>();
     private double preciototal;
-    public static void main(String[] args) {
+    public void inicializar() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Numeros de cafes a personalizar: ");
         int numero = sc.nextInt();

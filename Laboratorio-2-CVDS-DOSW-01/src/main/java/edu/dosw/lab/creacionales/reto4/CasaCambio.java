@@ -14,7 +14,7 @@ public class CasaCambio {
     private static Scanner scanner = new Scanner(System.in);
     private static List<String> historialTransacciones = new ArrayList<>();
     
-    public static void main(String[] args) {
+    public void inicializar() {
         realizarMultiplesConversiones();
     }
     

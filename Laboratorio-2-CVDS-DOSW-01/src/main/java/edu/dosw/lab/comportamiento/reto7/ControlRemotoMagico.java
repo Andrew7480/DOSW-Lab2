@@ -11,7 +11,7 @@ public class ControlRemotoMagico {
         this.scanner = new Scanner(System.in);
     }
 
-    public void iniciar() {
+    public void inicializar() {
         System.out.print("Número de acciones a registrar: ");
         int numeroAcciones = scanner.nextInt();
         scanner.nextLine(); // Consumir el salto de línea

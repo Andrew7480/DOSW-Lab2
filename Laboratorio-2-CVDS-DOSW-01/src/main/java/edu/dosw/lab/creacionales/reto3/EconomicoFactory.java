@@ -32,11 +32,11 @@ public class EconomicoFactory implements CategoriaFactory {
             public MedioTransporte crearporMedioTransporte(String tipo) {
                 switch (tipo) {
                     case "Auto":
-                        return crearAuto(0, 0, null);
+                        return crearAuto(900, 0, null);
                     case "Moto":
-                        return crearMoto(0, 0, null);
+                        return crearMoto(700, 0, null);
                     case "Bicicleta":
-                        return crearBicicleta(0, 0, null);
+                        return crearBicicleta(500, 0, null);
                     default:
                         throw new IllegalArgumentException("Tipo de vehículo no reconocido: " + tipo);
                 }
@@ -62,11 +62,11 @@ public class EconomicoFactory implements CategoriaFactory {
             public MedioTransporte crearporMedioTransporte(String tipo) {
                 switch (tipo) {
                     case "Avion":
-                        return crearAvion(0, 0, null);
+                        return crearAvion(1500, 0, null);
                     case "Helicoptero":
-                        return crearHelicoptero(0, 0, null);
+                        return crearHelicoptero(2000, 0, null);
                     case "Avioneta":
-                        return crearAvioneta(0, 0, null);
+                        return crearAvioneta(1500, 0, null);
                     default:
                         throw new IllegalArgumentException("Tipo de vehículo no reconocido: " + tipo);
                 }
@@ -89,11 +89,11 @@ public class EconomicoFactory implements CategoriaFactory {
             public MedioTransporte crearporMedioTransporte(String tipo) {
                 switch (tipo) {
                     case "Lancha":
-                        return crearLancha(0, 0, null);
+                        return crearLancha(6000, 0, null);
                     case "Velero":
-                        return crearVelero(0, 0, null);
+                        return crearVelero(5000, 0, null);
                     case "Jetski":
-                        return crearJetSki(0, 0, null);
+                        return crearJetSki(6000, 0, null);
                     default:
                         throw new IllegalArgumentException("Tipo de vehículo no reconocido: " + tipo);
                 }

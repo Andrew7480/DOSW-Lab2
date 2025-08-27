@@ -75,7 +75,16 @@ public class Concesionaria {
                 System.out.println("  - " + vehiculo);
             }
         }
+        System.out.println("--- RESUMEN FINAL ---");
+        System.out.println("Total de vehículos vendidos: " + obtenerPrecioTotal());
     }
+    private double obtenerPrecioTotal() {
+        return vehiculos.values().stream()
+                .flatMap(List::stream)
+                .mapToDouble(MedioTransporte::getPrecio)
+                .sum();
+    }
+    
 
     public void venderVehiculo() {
         Scanner scanner = new Scanner(System.in);
