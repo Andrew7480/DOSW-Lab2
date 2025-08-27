@@ -1,4 +1,3 @@
-s
 package edu.dosw.lab.solid.reto5;
 import java.util.ArrayList;
 import java.util.Scanner;

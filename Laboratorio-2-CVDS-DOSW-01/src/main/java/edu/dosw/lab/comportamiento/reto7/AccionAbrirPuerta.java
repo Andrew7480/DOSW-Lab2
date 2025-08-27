@@ -1,3 +1,5 @@
+package edu.dosw.lab.comportamiento.reto7;
+
 public class AccionAbrirPuerta implements AccionRemota {
     private final String usuario;
     private boolean deshecha = false;

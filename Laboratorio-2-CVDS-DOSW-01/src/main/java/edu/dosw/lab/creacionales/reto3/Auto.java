@@ -6,4 +6,13 @@ public class Auto extends Vehiculo {
         super(precio, velocidad, descripcion);
     }
 
+    @Override
+    public String toString() {
+        return "Auto{" +
+                "precio=" + getPrecio() +
+                ", velocidad=" + getVelocidad() +
+                ", descripcion='" + getDescripcion() + '\'' +
+                '}';
+    }
+
 }

@@ -1,3 +1,5 @@
+package edu.dosw.lab.comportamiento.reto7;
+
 public class AccionAjustarVolumen implements AccionRemota {
     private final String usuario;
     private final int volumen;

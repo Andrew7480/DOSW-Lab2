@@ -1,18 +1,16 @@
 package edu.dosw.lab.creacionales.reto3;
 
-public class Velero extends Vehiculo {
-
-    public Velero(double precio, double velocidad, String descripcion) {
+public class Helicoptero extends Vehiculo {
+    public Helicoptero(double precio, double velocidad, String descripcion) {
         super(precio, velocidad, descripcion);
     }
 
     @Override
     public String toString() {
-        return "Velero{" +
+        return "Helicoptero{" +
                 "precio=" + getPrecio() +
                 ", velocidad=" + getVelocidad() +
                 ", descripcion='" + getDescripcion() + '\'' +
                 '}';
     }
-
 }

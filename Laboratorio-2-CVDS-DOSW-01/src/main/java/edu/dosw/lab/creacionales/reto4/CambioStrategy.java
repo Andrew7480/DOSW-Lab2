@@ -1,3 +1,5 @@
+package edu.dosw.lab.creacionales.reto4;
+
 /**
  * Estrategia de conversión que implementa el patrón Strategy
  * Convierte cualquier moneda a dólares primero, luego a la moneda destino

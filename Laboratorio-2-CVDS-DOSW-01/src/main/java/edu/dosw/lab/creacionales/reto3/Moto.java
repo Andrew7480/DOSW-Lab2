@@ -6,4 +6,13 @@ public class Moto extends Vehiculo {
         super(precio, velocidad, descripcion);
     }
 
+    @Override
+    public String toString() {
+        return "Moto{" +
+                "precio=" + getPrecio() +
+                ", velocidad=" + getVelocidad() +
+                ", descripcion='" + getDescripcion() + '\'' +
+                '}';
+    }
+
 }

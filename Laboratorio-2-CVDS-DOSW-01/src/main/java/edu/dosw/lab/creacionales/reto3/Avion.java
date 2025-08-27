@@ -6,4 +6,13 @@ public class Avion extends Vehiculo {
         super(precio, velocidad, descripcion);
     }
 
+    @Override
+    public String toString() {
+        return "Avion{" +
+                "precio=" + getPrecio() +
+                ", velocidad=" + getVelocidad() +
+                ", descripcion='" + getDescripcion() + '\'' +
+                '}';
+    }
+
 }

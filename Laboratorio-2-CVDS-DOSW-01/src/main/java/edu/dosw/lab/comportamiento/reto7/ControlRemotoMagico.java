@@ -1,3 +1,5 @@
+package edu.dosw.lab.comportamiento.reto7;
+
 import java.util.Scanner;
 
 public class ControlRemotoMagico {

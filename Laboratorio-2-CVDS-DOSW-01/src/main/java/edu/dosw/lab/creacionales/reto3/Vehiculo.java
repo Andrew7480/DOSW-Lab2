@@ -23,4 +23,6 @@ public abstract class Vehiculo implements MedioTransporte {
         return descripcion;
     }
 
+    public abstract String toString();
+
 }
