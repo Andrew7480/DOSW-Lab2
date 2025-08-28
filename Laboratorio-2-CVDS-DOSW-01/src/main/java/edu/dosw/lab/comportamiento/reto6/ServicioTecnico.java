@@ -1,7 +1,7 @@
 package edu.dosw.lab.comportamiento.reto6;
 import java.util.*;
 public class ServicioTecnico {
-    public static void main(String[] args){
+    public void empezar(){
             Scanner sc = new Scanner(System.in);
             
             Tecnico basico = new TecnicoBasico();
