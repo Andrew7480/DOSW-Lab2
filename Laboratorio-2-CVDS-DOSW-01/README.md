@@ -5,8 +5,6 @@
 - CHRISTIAN ALFONZO ROMERO MARTINEZ
 - JUAN CAMILO CRISTANCHO VELASQUEZ
 
-** Nombre de la rama: **
-'camilo'
 
 ## RETOS COMPLETADOS :> 
 Evidencia del código solución implementado 
